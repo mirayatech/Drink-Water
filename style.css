@@ -1,0 +1,20 @@
+:root {
+  --border-color: #008ce9;
+  --fill-color: #79c9ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #47b5fe;
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
