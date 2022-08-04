@@ -42,3 +42,31 @@ h3 {
   flex-direction: column;
   overflow: hidden;
 }
+
+.cup.cup-small {
+  width: 60px;
+  height: 95px;
+  border: 3px solid var(--border-color);
+
+  border-radius: 0 0 10px 10px;
+  background: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  margin: 5px;
+  font-size: calc(14 / 16 * 1rem);
+}
+
+.cup.cup-small.full {
+  background: var(--fill-color);
+  color: #fff;
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+}
